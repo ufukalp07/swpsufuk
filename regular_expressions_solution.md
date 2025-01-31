@@ -1,0 +1,11 @@
+ls ~/ | grep '^[A-Z]'
+ls -a ~/ | grep '^\.'
+ls -a ~/ | grep '^\.' | wc -l
+ls ~/ | grep '^[a-zA-Z]*$'
+ls ~/ | grep '^[^A-Z]*$'
+ls ~/ | grep -v '\.[a-zA-Z]\{3\}$'
+ls /etc | grep '^c.*y$'
+ls /etc | grep 'ss'
+ls ~/ | grep '^.\{1\}[A-Z].\{1\}[A-Z].e$'
+ls ~/ | grep '^[a-zA-Z0-9]\{4\}$'
+ls /var/log | grep '\.log$'
